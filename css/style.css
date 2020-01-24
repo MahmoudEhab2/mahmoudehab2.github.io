@@ -158,6 +158,10 @@ html{
     -webkit-transition-duration: 0.75s;
     transition-duration: 0.5s;
 }
+.box a{
+    padding: 15px;
+    border-radius: 30px;
+}
 .box:hover{
     background-color: rgba(31, 31, 31, 0.65);
     cursor: pointer;

@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+*:focus{
+    outline: none;
+}
+a{
+    color: black;
+}
+html{
+    opacity: 0;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/******Section1******/
+#section1{
+    display: block;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../images/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/**TopBar**/
+.sec1_topbar{
+    height: 10%;
+    background-color: rgba(20, 20, 20, 0.6);
+    text-align: right;
+}
+.sec1_topbar .right{
+    display: inline-block;
+    text-align: right;
+    height: 100%;
+    width: 90%;
+    margin: 0% 5%;
+    
+}
+.sec1_topbar .left{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    margin-right: 8%;
+}
+.sec1_topbar .right img{
+    display:inline-block;
+    height: 90%;
+    border-radius: 30px;
+    margin: 5px 20px;
+}
+.sec1_topbar .right label{
+    display:inline-block;
+    color: white;
+    margin: 20px 20px;
+    -webkit-transform: translateZ(5px);
+    transform: translateY(-30px)
+}
+.sec1_topbar .left button{
+    display:inline-block;
+    margin: 10px 15px;
+    -webkit-transform: translateZ(5px);
+    transform: translateY(-30px);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 10px;
+    border: solid #e0e0e0 1px;
+    border-radius: 30px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.sec1_topbar .left button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.5s;
+    cursor:pointer;
+}
+
+/**center**/
+.center{
+    text-align:center;
+    margin: 75vh 0 10vh 0;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+.center button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0;
+    font-size: 120%;
+    margin: 15px 40px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 0.75s;
+}
+.center button:hover{
+    border-bottom: solid white 2px;
+    font-size: 150%;
+    cursor:pointer;
+}
+
+/*******PoemsSection******/
+#poems{
+    display: block;
+    height: 50vh;
+    margin: auto;
+    background-color: #dddddd;
+    text-align: center;
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+}
+#poems:hover{
+    height: 80vh;
+}
+#poems .content{
+    display: inline-block;
+    height: 85%;
+    width: 90%;
+    margin: 3% auto;
+    overflow:auto;
+}
+
+/*******ProsesSection******/
+#proses{
+    display: block;
+    height: 50vh;
+    margin: auto;
+    background-color: #c9c9c9;
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+    text-align: center;
+}
+#proses:hover{
+    height: 80vh;
+}
+#proses .content{
+    display: inline-block;
+    height: 85%;
+    width: 90%;
+    margin: 3% auto;
+    overflow:auto;
+}
+.box{
+    display: inline-block;
+    width: 15%;
+    height: 30px;
+    border: solid #1f1f1f 2px;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 30px;
+    -webkit-transition-duration: 0.75s;
+    transition-duration: 0.5s;
+}
+.box:hover{
+    background-color: rgba(31, 31, 31, 0.65);
+    cursor: pointer;
+}
+footer{
+    height: 75px;
+    background-color: #191919;
+    color: #919191;
+    text-align: left;
+}
+footer label{
+    position: absolute;
+    font-size: 90%;
+    -webkit-transform: translateY(25px) translateX(16px);
+    transform: translateY(25px) translateX(16px);
+}
+footer a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px 40px 10px 0px;
+}
+.yt{
+    background-image: url("../images/youtube.png");
+    background-size: contain;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.yt:hover{
+    background-image: url("../images/youtube%20(1).png");
+    background-size: contain;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.fb{
+    background-image: url("../images/facebook-logo.png");
+    background-size: contain;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.fb:hover{
+    background-image: url("../images/facebook-logo-1.png");
+    background-size: contain;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}

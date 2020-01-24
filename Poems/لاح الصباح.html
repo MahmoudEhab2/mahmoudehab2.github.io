@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="ar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>لاح الصباح</title>
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                word-spacing: 2px;
+            }
+            *:focus{
+                outline: none;
+            }
+            html{
+                font-size: 20px;
+                overflow: hidden;
+            }
+            body{
+                background-image: url("../images/bg.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            #topbar_sec{
+                display: block;
+                background-image: linear-gradient(#191919,#101010);
+                height: 60px;
+                text-align: right;
+            }
+            .Btn img{
+                color: white;
+            }
+            .Btn{
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                font-size: 70%;
+                border: solid white 2px;
+                border-radius: 20px;
+                padding: 10px;
+                margin: 10px;
+                transition-duration: 0.5s;
+            }
+            .Btn:hover{
+                color: #ba0000;
+                background-color: white;
+                font-size: 75%;
+                border: solid #ba0000 2px;
+            }
+            #content_sec{
+                display: block;
+                width: 90%;
+                height: 100vh;
+                margin: auto;
+                background-color: rgba(229, 229, 229, 0.2);
+            }
+            #content_sec div{
+                width: 90%;
+                height: 100%;
+                margin: auto;
+                text-align: center;
+                padding: 25px;
+                color: white;
+                overflow:auto;
+            }
+            h1{
+                margin: 20px 0px;
+            }
+            table{
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="topbar_sec">
+            <a class="Btn" href="../index.html">الرجوع</a>
+        </section>
+        <section id="content_sec">
+            <div>
+                <h1>لاح الصباح</h1>
+                <table bgcolor="#2d2d2d" align="center" border="0"  cellspacing="25px" width="90%">
+                    <tr>
+                        <td>واللهُ يشْهَدُ أنَّا ما عَشِقناهُ</td>
+                        <td>***</td>
+                        <td>لاحَ الصَّبَاحُ وظَلَّ اللَّيْلُ يَعشِقُنا</td>
+                    </tr>
+                    <tr>
+                        <td>تقولُ إنَّ قُلوبَ النَّاسِ تَهْواهُ</td>
+                        <td>***</td>
+                        <td>وأحضَرَ الليلُ أقوامًا لهُمْ غَرَضٌ</td>
+                    </tr>
+                    <tr>
+                        <td>علَى هَوانَا إذَا مَا يَشْهَدُ اللهُ؟</td>
+                        <td>***</td>
+                        <td>وهَلْ تُفيدُ شهاداتٌ مُلَفَّقَةٌ</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </body>
+</html>

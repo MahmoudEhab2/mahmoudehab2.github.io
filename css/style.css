@@ -150,11 +150,11 @@ html{
 }
 .box{
     display: inline-block;
-    width: 15%;
+    width: 25%;
     height: 30px;
     border: solid #1f1f1f 2px;
     padding: 20px;
-    margin: 0 20px;
+    margin: 0 10px;
     border-radius: 30px;
     -webkit-transition-duration: 0.75s;
     transition-duration: 0.5s;
@@ -162,6 +162,7 @@ html{
 .box a{
     padding: 15px;
     border-radius: 30px;
+    font-size: 75%;
 }
 .box:hover{
     background-color: rgba(31, 31, 31, 0.65);

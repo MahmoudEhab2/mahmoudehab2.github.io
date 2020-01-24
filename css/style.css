@@ -15,7 +15,7 @@ html{
     transition-duration: 1s;
     background-color: black;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 
 /******Section1******/
@@ -58,8 +58,9 @@ html{
 }
 .sec1_topbar .right label{
     display:inline-block;
+    font-size: 20px;
     color: white;
-    margin: 20px 20px;
+    margin: 20px 10px;
     -webkit-transform: translateZ(5px);
     transform: translateY(-30px)
 }

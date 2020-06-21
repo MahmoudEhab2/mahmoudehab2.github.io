@@ -13,15 +13,8 @@ html{
     opacity: 0;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
-    background-color: black;
     font-size: 20px;
     font-family: 'Cairo', sans-serif;
-}
-
-/******Section1******/
-#section1{
-    display: block;
-    height: 100vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../images/bg.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/bg.jpg");
     background-size: cover;
@@ -29,15 +22,21 @@ html{
     background-position: center;
     background-attachment: fixed;
 }
+
+/******Section1******/
+#section1{
+    display: block;
+    height: 100vh;
+}
 /**TopBar**/
 .sec1_topbar{
     height: 10%;
     background-color: rgba(20, 20, 20, 0.6);
-    text-align: right;
+    text-align: center;
 }
 .sec1_topbar .right{
     display: inline-block;
-    text-align: right;
+    text-align: center;
     height: 100%;
     width: 90%;
     margin: 0% 5%;
@@ -110,15 +109,12 @@ html{
 /*******PoemsSection******/
 #poems{
     display: block;
-    height: 50vh;
+    height: 75vh;
     margin: auto;
-    background-color: #dddddd;
+    background-color: rgba(221, 221, 221, 0.9);
     text-align: center;
     -webkit-transition-duration: 0.75s;
     transition-duration: 0.75s;
-}
-#poems:hover{
-    height: 80vh;
 }
 #poems .content{
     display: inline-block;
@@ -131,15 +127,12 @@ html{
 /*******ProsesSection******/
 #proses{
     display: block;
-    height: 50vh;
+    height: 75vh;
     margin: auto;
-    background-color: #c9c9c9;
+    background-color: rgba(201, 201, 201, 0.9);
     -webkit-transition-duration: 0.75s;
     transition-duration: 0.75s;
     text-align: center;
-}
-#proses:hover{
-    height: 80vh;
 }
 #proses .content{
     display: inline-block;
@@ -172,19 +165,12 @@ footer{
     height: 75px;
     background-color: #191919;
     color: #919191;
-    text-align: left;
-}
-footer label{
-    position: absolute;
-    font-size: 90%;
-    -webkit-transform: translateY(25px) translateX(16px);
-    transform: translateY(25px) translateX(16px);
 }
 footer a{
     display: inline-block;
     height: 50px;
     width: 50px;
-    margin: 10px 40px 10px 0px;
+    margin: 10px 20px;
 }
 .yt{
     background-image: url("../images/youtube.png");
